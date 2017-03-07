@@ -5,7 +5,6 @@ import { allTodos } from '../../reducers/selectors.js';
 
 const mapStateToProps = (state) => ({
   todos: allTodos(state)
-
 });
 
 const mapDispatchToProps = (dispatch) => ({
