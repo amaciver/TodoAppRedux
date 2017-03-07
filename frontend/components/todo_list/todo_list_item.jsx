@@ -17,6 +17,8 @@ export const TodoListItem = ({todo, removeTodo, receiveTodo}) => (
 
     <TodoDetailViewContainer id={todo.id} body={todo.body} />
   </div>
+
+  
 );
 
 // <button key={todo.id} onClick={() => removeTodo(todo.id)}>Remove</button>
